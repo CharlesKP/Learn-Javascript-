@@ -1,0 +1,68 @@
+.space{
+    margin-left: 40px !important;
+    text-decoration: none;
+    color: black;
+}
+
+.space:hover{
+    color: grey; 
+}
+
+.header-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5cm;
+    background-image: linear-gradient(rgb(17, 146, 146), rgb(17, 146, 146),rgb(150, 219, 219));
+    color: azure;
+}
+
+p {
+    line-height: 1.5;;
+}
+
+li{
+    line-height: 1.5;
+}
+
+img {
+    padding-bottom: 25px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(209, 10, 10);
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid rgb(135, 6, 221);
+	border-bottom: 25px solid transparent;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(24, 208, 214);
+    border-radius: 50%;
+}
+
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 202, 29);
+}
+
+.spacer {
+    margin: 50px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 60%;
+}
